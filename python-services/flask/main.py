@@ -18,7 +18,7 @@ collection = db['health_metrics']
 @app.route('/give_info', methods=['POST'])
 def give_info():
     data = request.get_json(force=True)
-    
+    print(data)
     # Process the incoming data
     if not data:
         return jsonify({"error": "No data provided"}), 400
