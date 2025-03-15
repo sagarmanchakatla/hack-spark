@@ -1,0 +1,109 @@
+{
+  "heart_rate": 94.7612482135543,
+  "body_fat": 37.39318744027028,
+  "basal_energy": 1927.651455392908,
+  "total_calories": 318.4722798850426,
+  "weight": 4.98857522582892,
+  "steps": 7228.370115690974,
+  "height": 149.59544400169227,
+  "sleep_asleep": 5.901749206196497,
+  "age": 45,
+  "gender": "Male",
+  "hypertension": "Yes",
+  "heart_disease": "No",
+  "smoking_history": "past",
+  "bmi": 28.5,
+  "HbA1c_level": 6.5,
+  "blood_glucose_level": 90,
+  "sleep_analyses": {
+    "recommendations": {
+      "recommendations": [
+        {
+          "category": "Sleep position and environment changes",
+          "explanation": "Sleeping on your back can cause your tongue and soft palate to rest against the back of your throat, blocking your airway and causing pauses in breathing.",
+          "recommendation": "Sleep on your side instead of your back, as it can help reduce the risk of sleep apnea."
+        },
+        {
+          "category": "Lifestyle modifications",
+          "explanation": "These substances can increase the likelihood of sleep apnea by relaxing the muscles in the throat, causing obstruction of the airway.",
+          "recommendation": "Avoid alcohol, caffeine, and heavy meals close to bedtime."
+        },
+        {
+          "category": "Weight management strategies if applicable",
+          "explanation": "Weight loss can help reduce the severity of sleep apnea by reducing the amount of tissue in the neck that can block the airway.",
+          "recommendation": "Lose weight if overweight or obese, as excess weight can contribute to sleep apnea."
+        },
+        {
+          "category": "Exercise recommendations",
+          "explanation": "Exercise can help strengthen the muscles in the upper airway, reducing the risk of obstruction and improving sleep quality.",
+          "recommendation": "Engage in regular physical activity, as it can improve sleep quality and reduce the risk of sleep apnea."
+        },
+        {
+          "category": "When to consult a sleep specialist",
+          "explanation": "A sleep specialist can provide a comprehensive evaluation and recommend appropriate treatments, such as continuous positive airway pressure (CPAP) therapy or oral appliances.",
+          "recommendation": "Consult a sleep specialist if symptoms persist or worsen despite lifestyle modifications and weight management."
+        }
+      ]
+    },
+    "sleep_apnea_result": "Sleep Apnea Detected"
+  },
+  "diabities_info": {
+    "message": "You are not diabetic",
+    "prediction": "not_diabetic",
+    "probability": 0.01,
+    "recommendations": {
+      "explanation": "These recommendations aim to reduce your risk of developing diabetes by promoting a healthy lifestyle and managing your hypertension. A balanced diet, regular exercise, and monitoring of blood pressure can help control weight, reduce insulin resistance, and improve overall health.",
+      "recommendations": [
+        {
+          "details": "Adopt a balanced diet with whole grains, lean proteins, and plenty of fruits and vegetables. Limit intake of processed foods, sugary drinks, and high-fat dairy products.",
+          "type": "Dietary changes"
+        },
+        {
+          "details": "Engage in moderate-intensity aerobic exercise for at least 150 minutes per week and include strength training exercises on two or more days a week. Aim to lose weight if overweight or obese (BMI >= 25).",
+          "type": "Exercise recommendations"
+        },
+        {
+          "details": "Monitor blood pressure regularly and maintain it below 130/80 mmHg. Consider getting a hemoglobin A1c test every 3 years to check for prediabetes or diabetes.",
+          "type": "Monitoring suggestions"
+        },
+        {
+          "details": "Quit smoking, limit alcohol consumption, and manage stress through relaxation techniques such as yoga or meditation.",
+          "type": "Lifestyle modifications"
+        },
+        {
+          "details": "Consult with a healthcare provider if you have any symptoms of diabetes, such as increased thirst, frequent urination, or unexplained weight loss. Also, inform your healthcare provider if you have a family history of diabetes or if you are unable to make lifestyle changes to reduce your diabetes risk.",
+          "type": "When to consult with healthcare providers"
+        }
+      ]
+    }
+  },
+  "heart_health": {
+    "risk_category": "High",
+    "risk_probability": 0.7456825657894737,
+    "recommendations": {
+      "explanation": "These recommendations are based on your heart health data and arrhythmia risk assessment. By making lifestyle changes, incorporating regular exercise, following a heart-healthy diet and monitoring your heart health, you can reduce your arrhythmia risk and improve your overall heart health.",
+      "recommendations": [
+        {
+          "advice": "Aim to reduce stress through techniques such as meditation, deep breathing or yoga. Stress can increase heart rate and blood pressure, so finding ways to manage it is important for heart health.",
+          "category": "Lifestyle changes"
+        },
+        {
+          "advice": "Engage in regular aerobic exercise, such as brisk walking or cycling, for at least 150 minutes per week. This can help lower heart rate, improve cardiovascular fitness and reduce body fat percentage.",
+          "category": "Exercise suggestions"
+        },
+        {
+          "advice": "Follow a heart-healthy diet, rich in fruits, vegetables, whole grains, lean proteins and healthy fats. Limit intake of saturated and trans fats, cholesterol, sodium and added sugars. Consider consulting a dietitian for personalized guidance.",
+          "category": "Dietary advice"
+        },
+        {
+          "advice": "Monitor heart rate, blood pressure and weight regularly. Consider using a wearable device to track these metrics and share the data with your healthcare provider. Report any significant changes or symptoms to your healthcare provider.",
+          "category": "Monitoring recommendations"
+        },
+        {
+          "advice": "If you experience symptoms such as chest pain, shortness of breath, irregular heartbeat, dizziness or fainting, seek medical attention immediately. These symptoms could indicate a serious heart condition and require prompt evaluation and treatment.",
+          "category": "When to seek medical attention"
+        }
+      ]
+    }
+  }
+}

@@ -12,7 +12,7 @@ from sklearn.pipeline import Pipeline
 import joblib
 
 
-df = pd.read_csv('arrhythmia_dataset.csv')
+df = pd.read_csv('heart.csv')
 
 # Exploratory Data Analysis
 def perform_eda(df):
