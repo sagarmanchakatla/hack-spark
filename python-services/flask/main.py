@@ -143,6 +143,14 @@ def daily_summary():
         'metrics': results
     })
 
+
+@app.route('/steps', methods=['POST'])
+def steps():
+    data = request.get_json(force=True)
+    
+    
+
+
 if __name__ == '__main__':
     # Get port from environment variable or use 5000 as default
     port = int(os.environ.get('PORT', 5002))
