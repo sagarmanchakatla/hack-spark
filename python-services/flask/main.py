@@ -18,6 +18,7 @@ collection = db['health_metrics']
 @app.route('/give_info', methods=['POST'])
 def give_info():
     data = request.get_json(force=True)
+    print('recieved data: \n\n')
     print(data)
     # Process the incoming data
     if not data:
@@ -144,5 +145,5 @@ def daily_summary():
 
 if __name__ == '__main__':
     # Get port from environment variable or use 5000 as default
-    port = int(os.environ.get('PORT', 5000))
+    port = int(os.environ.get('PORT', 5002))
     app.run(host='0.0.0.0', port=port, debug=True)
